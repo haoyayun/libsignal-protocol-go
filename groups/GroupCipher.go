@@ -2,13 +2,14 @@ package groups
 
 import (
 	"errors"
+	"strconv"
+	
 	"github.com/haoyayun/libsignal-protocol-go/cipher"
 	"github.com/haoyayun/libsignal-protocol-go/ecc"
 	"github.com/haoyayun/libsignal-protocol-go/groups/ratchet"
 	"github.com/haoyayun/libsignal-protocol-go/groups/state/record"
 	"github.com/haoyayun/libsignal-protocol-go/groups/state/store"
 	"github.com/haoyayun/libsignal-protocol-go/protocol"
-	"strconv"
 )
 
 // NewGroupCipher will return a new group message cipher that can be used for
