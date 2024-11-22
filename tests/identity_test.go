@@ -2,9 +2,9 @@ package tests
 
 import (
 	"github.com/RadicalApp/complete"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/util/keyhelper"
+	"github.com/haoyayun/libsignal-protocol-go/ecc"
+	"github.com/haoyayun/libsignal-protocol-go/logger"
+	"github.com/haoyayun/libsignal-protocol-go/util/keyhelper"
 	"sync"
 	"testing"
 )

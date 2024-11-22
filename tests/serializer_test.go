@@ -2,10 +2,10 @@ package tests
 
 import (
 	"fmt"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/prekey"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/session"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
+	"github.com/haoyayun/libsignal-protocol-go/keys/prekey"
+	"github.com/haoyayun/libsignal-protocol-go/logger"
+	"github.com/haoyayun/libsignal-protocol-go/session"
+	"github.com/haoyayun/libsignal-protocol-go/state/record"
 	"github.com/kr/pretty"
 	"testing"
 )

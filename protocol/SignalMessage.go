@@ -4,10 +4,10 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
+	"github.com/haoyayun/libsignal-protocol-go/ecc"
+	"github.com/haoyayun/libsignal-protocol-go/keys/identity"
+	"github.com/haoyayun/libsignal-protocol-go/logger"
+	"github.com/haoyayun/libsignal-protocol-go/util/bytehelper"
 	"strconv"
 )
 

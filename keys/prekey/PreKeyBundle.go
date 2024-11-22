@@ -3,9 +3,9 @@
 package prekey
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/haoyayun/libsignal-protocol-go/ecc"
+	"github.com/haoyayun/libsignal-protocol-go/keys/identity"
+	"github.com/haoyayun/libsignal-protocol-go/util/optional"
 )
 
 // NewBundle returns a Bundle structure that contains a remote PreKey

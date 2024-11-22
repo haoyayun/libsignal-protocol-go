@@ -5,11 +5,11 @@ package ratchet
 import (
 	"encoding/base64"
 	"encoding/binary"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/kdf"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/root"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/session"
+	"github.com/haoyayun/libsignal-protocol-go/ecc"
+	"github.com/haoyayun/libsignal-protocol-go/kdf"
+	"github.com/haoyayun/libsignal-protocol-go/keys/chain"
+	"github.com/haoyayun/libsignal-protocol-go/keys/root"
+	"github.com/haoyayun/libsignal-protocol-go/keys/session"
 )
 
 var b64 = base64.StdEncoding.EncodeToString

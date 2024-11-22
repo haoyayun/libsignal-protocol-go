@@ -2,7 +2,7 @@ package record
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
+	"github.com/haoyayun/libsignal-protocol-go/ecc"
 )
 
 // SenderKeySerializer is an interface for serializing and deserializing
